@@ -1,0 +1,157 @@
+.sign-up{ /* Kotak untuk Daftar */
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+    margin-top: 100px;
+}
+
+.sign-up-head-text{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+.sign-up-head-1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-head-2{
+    font-size: 12px;
+    margin-top: -15px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-name{
+    display: flex;
+}
+
+.sign-up-name input[type=text]{
+    width: 95%;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin : 4px;
+}
+
+.sign-up-email input[type=text]{
+    width: 92%;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 4px;
+}
+
+.sign-up-password input[type=password]{
+    width: 92%;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 4px;
+}
+
+.birth-info{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(75, 75, 75);
+    font-size: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 1px;
+}
+
+.sign-up-birth-box select{
+    width: 29.964%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 3.9px;
+}
+
+.gender-info{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(75, 75, 75);
+    font-size: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.gender-select{
+    display: flex;
+}
+
+.gender-name-male{
+    width: 26%;
+    padding:8px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eee;
+    margin: 2px;
+}
+
+.gender-name-female{
+    width: 29.95%;
+    padding:8px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eee;
+    margin: 2px;
+}
+
+.gender-name-special{
+    width: 23%;
+    padding:8px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eee;
+    margin: 2px;
+}
+
+.sign-up-button{
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sign-up-button button{
+    width: 100%;
+    padding: 10px;
+    background-color:#32cd32;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.sign-up-button button:hover {
+    background: green;
+    color: white;
+}

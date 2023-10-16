@@ -1,0 +1,129 @@
+.sign-up { /* box sign-up */
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid blue;
+    margin-top: 100px;
+}
+
+.sign-up-heading {  /*border sign-up */
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+    /* margin: 0 -1em; */ 
+}
+
+.sign-up-head-1 {  /* nama depan */
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.sign-up-head-2 { /* nama belakang */
+    font-size: 13px;
+    margin-top: -15px;
+    color: grey;
+}
+
+.sign-up-name { /* setting box nama depan dan belakang  sejajar*/
+    display: flex;
+}
+
+.sign-up-name input[type=text]{ /*box input nama */
+    width: 112.6px;
+    padding:8px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 4px;
+}
+
+.sign-up-email input[type=text]{ /* box input email */
+    width: 92%;
+    padding:8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee; 
+    margin: 4px;
+}
+
+.sign-up-pass input[type=password]{ /* box input pass */
+    width: 92%;
+    padding:8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: 4px;
+}
+
+.birth-info { /* lambang tanda tanya */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #aaa;
+    font-size: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 1px;
+}
+
+.gender-select { /* box buat gender */
+    width: 100%;
+    margin-top: 3px;
+    display: flex;
+}
+
+.gender-select input[type=radio]{ /* ubah cursor */
+    cursor: pointer
+}
+
+.gender-info { /* lambang tanda tanya */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #aaa;
+    font-size: 9px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.gender-name { /*jenis gender (laki, perempuan, khusus) */
+     width: 32%;
+     border: 1px solid #ccc;
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 13px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.sign-up-button { 
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sign-up-button button{
+    width: 100%;
+    padding: 10px;
+    background-color:#32cd32;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.sign-up-button button:hover { /*pseudo-code : hover */
+    background: green;
+    color: white;
+}
+
+
